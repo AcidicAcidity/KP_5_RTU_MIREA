@@ -20,27 +20,6 @@
 - Vanilla JavaScript (frontend)
 - HTML5, CSS3 (статические файлы через `express.static`) [web:37]
 
-## Структура проекта
-
-
-.
-├── controllers/
-│   └── chatController.js
-├── middleware/
-│   └── logger.js
-├── routes/
-│   └── chat.js
-├── public/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── src/
-│   ├── 1scr.png
-│   ├── 2scr.png
-│   └── 3scr.png
-├── server.js
-└── package.json
-
 
 ## Установка и запуск
 
