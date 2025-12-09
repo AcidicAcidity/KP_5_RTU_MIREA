@@ -1,6 +1,3 @@
-Вот полный README.md, готовый к копированию:
-
-```markdown
 # Умникум Гордеус — чат-бот на Express.js
 
 Учебное Express-приложение с локальной логикой чат-бота «Умникум Гордеус», выполненное по требованиям контрольной работы: базовый сервер, маршруты, middleware, работа с параметрами, телом запроса и статическими файлами. [web:49]
@@ -25,7 +22,7 @@
 
 ## Структура проекта
 
-```
+
 .
 ├── controllers/
 │   └── chatController.js
@@ -43,17 +40,17 @@
 │   └── 3scr.png
 ├── server.js
 └── package.json
-```
+
 
 ## Установка и запуск
 
-```
+
 git clone <repo-url>
 cd <project-folder>
 
 npm install
 npm start
-```
+
 
 После запуска приложение будет доступно по адресу:  
 `http://localhost:3000`
@@ -71,7 +68,7 @@ npm start
 
 Пример ответа:
 
-```
+
 {
   "success": true,
   "messages": [
@@ -89,7 +86,7 @@ npm start
     "tuesday": true
   }
 }
-```
+
 
 ### POST `/api/chat`
 
@@ -97,15 +94,15 @@ npm start
 
 Тело запроса:
 
-```
+
 {
   "message": "Привет, кто ты?"
 }
-```
+
 
 Пример ответа:
 
-```
+
 {
   "success": true,
   "messages": [
@@ -113,7 +110,7 @@ npm start
     { "id": 124, "user": "bot", "text": "Ответ Умникума Гордеуса", "timestamp": "..." }
   ]
 }
-```
+
 
 ### POST `/api/chat/reset`
 
@@ -122,7 +119,7 @@ npm start
 
 Пример ответа:
 
-```
+
 {
   "success": true,
   "messages": [
@@ -134,7 +131,7 @@ npm start
     }
   ]
 }
-```
+
 
 ## Скриншоты
 
@@ -170,4 +167,3 @@ npm start
   - `controllers/chatController.js`
 - Локальная логика чат-бота:
   - Класс `UmnikumGordeys` с состояниями, паттернами и генерацией ответов
-```
